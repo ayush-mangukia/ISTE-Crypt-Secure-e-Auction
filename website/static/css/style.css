@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     Margin:0px;
     Padding:0px;
@@ -61,4 +61,70 @@ top:90%;
 left:50%;
 Transform:translate(-50%,-50%);
 Border:2px solid rgba(255,255,255,0.04);
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&family=Roboto:wght@400;700&display=swap");
+
+@font-face {
+  font-family: "ProductSans-Regular";
+  src: url("/website/fonts/ProductSans-Regular.eot"); /* IE9 Compat Modes */
+  src: url("/website/fonts/ProductSans-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/website/fonts/ProductSans-Regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */ url("/website/fonts/ProductSans-Regular.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("/website/fonts/ProductSans-Regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("/website/fonts/ProductSans-Regular.svg#svgFontName") format("svg"); /* Legacy iOS */
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ProductSans-Bold";
+  src: url("/website/fonts/ProductSans-Bold.eot"); /* IE9 Compat Modes */
+  src: url("/website/fonts/ProductSans-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("/website/fonts/ProductSans-Bold.woff2") format("woff2"),
+    /* Super Modern Browsers */ url("/website/fonts/ProductSans-Bold.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("/website/fonts/ProductSans-Bold.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("/website/fonts/ProductSans-Bold.svg#svgFontName") format("svg"); /* Legacy iOS */
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.imgg {
+  position: absolute;
+  left: 1100px;
+  bottom: 500px;
+  width: 500px;
+  height: 500px;
+}
+
+.imggbottom {
+  position: absolute;
+  right: 1100px;
+  top: 500px;
+  width: 500px;
+  height: 500px;
+}
+
+.title {
+  font-family: Roboto;
+  color: #8b73ff;
+  text-align: center;
+  margin-top: 200px;
+  font-family: Roboto;
+  font-size: 25px;
 }
